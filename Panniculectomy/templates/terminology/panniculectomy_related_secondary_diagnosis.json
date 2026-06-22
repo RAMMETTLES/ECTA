@@ -14,10 +14,10 @@
     }
   ],
   "version": "Latest",
-  "name": "Abdominal lipectomy Diagnosis",
-  "title": "Abdominal lipectomy Diagnosis",
+  "name": "Panniculectomy related secondary Diagnosis",
+  "title": "Panniculectomy related secondary Diagnosis",
   "status": "active",
-  "publisher": "Mettles",
+  "publisher": "CMS",
   "compose": {
     "include": [
       {
@@ -33,8 +33,12 @@
             "display": "Erythema intertrigo"
           },
           {
-            "code": "M79.3",
-            "display": "Panniculitis, unspecified"
+            "code": "R26.2",
+            "display": "Difficulty in walking, not  elsewhere classified"
+          },
+          {
+            "code": "Z74.09",
+            "display": "Other reduced mobility"
           }
         ]
       }

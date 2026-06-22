@@ -1,0 +1,50 @@
+{
+  "resourceType": "ValueSet",
+  "id": "tissue-breakdown-location-panniculectonomy",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2020-09-21T07:02:58.000+00:00",
+    "source": "#Rt3jEFB0aobPI0zV"
+  },
+  "url": "<FHIR-server>/ValueSet/tissue-breakdown-location-panniculectonomy",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:tissue-breakdown-location-panniculectonomy"
+    }
+  ],
+  "version": "Latest",
+  "name": "Tissue breakdown location",
+  "title": "Tissue breakdown location",
+  "status": "active",
+  "publisher": "CMS",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "312518009",
+            "display": "Infraumbilical abdominal fold"
+          },
+          {
+            "code": "1303204008",
+            "display": "Bilateral inguinal creases"
+          },
+          {
+            "code": "82561000",
+            "display": "Pubic mound / symphysis pubis"
+          },
+          {
+            "code": "57172001",
+            "display": "Anterior upper thighs (bilateral)"
+          },
+          {
+            "code": "13485007",
+            "display": "Under pannus overhang (general)"
+          }
+        ]
+      }
+    ]
+  }
+}

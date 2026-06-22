@@ -17,12 +17,28 @@
   "name": "Panniculectomy",
   "title": "Panniculectomy",
   "status": "active",
-  "publisher": "Mettles",
+  "publisher": "CMS",
   "compose": {
     "include": [
       {
-        "system": "https://www.aapc.com/resources/medical-coding/cpt.aspx",
-        "version": "2020-07",
+        "system": "http://www.cms.gov/Medicare/Coding/HCPCSReleaseCodeSets",
+        "concept": [
+          {
+            "code": "15830",
+            "display": "Removal of extra skin and tissue of abdomen"
+          },
+          {
+            "code": "15847",
+            "display": "Extensive removal of extra skin and tissue of abdomen"
+          },
+          {
+            "code": "15877",
+            "display": "Suction assisted removal of fat of body"
+          }
+        ]
+      },
+      {
+        "system": "http://www.ama-assn.org/go/cpt",
         "concept": [
           {
             "code": "15830",
@@ -30,7 +46,11 @@
           },
           {
             "code": "15847",
-            "display": "Under Other Repair (Closure) Procedures on the Integumentary System"
+            "display": "Excision, excessive skin and subcutaneous tissue (includes lipectomy), abdomen (eg, abdominoplasty) (includes umbilical transposition and fascial plication) (List separately in addition to code for primary procedure)"
+          },
+          {
+            "code": "15877",
+            "display": "Suction assisted lipectomy; trunk"
           }
         ]
       }

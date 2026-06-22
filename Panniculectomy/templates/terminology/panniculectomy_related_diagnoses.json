@@ -17,52 +17,183 @@
   "name": "Panniculectomy related diagnoses",
   "title": "Panniculectomy related diagnoses",
   "status": "active",
-  "publisher": "Mettles",
+  "publisher": "CMS",
   "compose": {
     "include": [
       {
         "system": "http://hl7.org/fhir/sid/icd-10-cm",
-        "version": "2020-07",
         "concept": [
           {
-            "code": "K46.9",
-            "display": "Unspecified abdominal hernia without obstruction or gangrene"
+          "code": "L98.7",
+          "display": "Excessive and redundant skin and subcutaneous tissue"
           },
           {
-            "code": "M19.90",
-            "display": "Unspecified osteoarthritis, unspecified site"
+          "code": "A31.1",
+          "display": "Cutaneous mycobacterial infection"
           },
           {
-            "code": "M25.569",
-            "display": "Pain in unspecified knee"
+          "code": "A43.1",
+          "display": "Cutaneous nocardiosis"
           },
           {
-            "code": "M25.559",
-            "display": "Pain in unspecified hip"
+          "code": "A46",
+          "display": "Erysipelas"
           },
           {
-            "code": "M54.9",
-            "display": "Dorsalgia, unspecified"
+          "code": "A48.0",
+          "display": "Gas gangrene"
           },
           {
-            "code": "T87.50",
-            "display": "Necrosis of amputation stump, unspecified extremity"
+          "code": "B35.6",
+          "display": "Tinea cruris"
           },
           {
-            "code": "M51.36",
-            "display": "Other intervertebral disc degeneration, lumbar region"
+          "code": "B35.8",
+          "display": "Other dermatophytoses"
           },
           {
-            "code": "G54.9",
-            "display": "Nerve root and plexus disorder, unspecified"
+          "code": "B37.2",
+          "display": "Candidiasis of skin and nail"
           },
           {
-            "code": "Z90.710",
-            "display": "Acquired absence of both cervix and uterus"
+          "code": "E65",
+          "display": "Localized adiposity"
           },
           {
-            "code": "Z98.84",
-            "display": "Bariatric surgery status"
+          "code": "L03.311",
+          "display": "Cellulitis of abdominal wall"
+          },
+          {
+          "code": "L08.1",
+          "display": "Erythrasma"
+          },
+          {
+          "code": "L30.4",
+          "display": "Erythema intertrigo"
+          },
+          {
+          "code": "L57.4",
+          "display": "Cutis lax senilis"
+          },
+          {
+          "code": "L87.9",
+          "display": "Transepidermal elimination disorder, unspecified"
+          },
+          {
+          "code": "L90.9",
+          "display": "Atrophic disorder of skin, unspecified"
+          },
+          {
+          "code": "L91.9",
+          "display": "Hypertrophic disorder of the skin, unspecified"
+          },
+          {
+          "code": "L98.431",
+          "display": "Non-pressure chronic ulcer of abdomen limited to breakdown of skin"
+          },
+          {
+          "code": "L98.432",
+          "display": "Non-pressure chronic ulcer of abdomen with fat layer exposed"
+          },
+          {
+          "code": "L98.433",
+          "display": "Non-pressure chronic ulcer of abdomen with necrosis of muscle"
+          },
+          {
+          "code": "L98.434",
+          "display": "Non-pressure chronic ulcer of abdomen with necrosis of bone"
+          },
+          {
+          "code": "L98.435",
+          "display": "Non-pressure chronic ulcer of abdomen with muscle involvement without evidence of necrosis"
+          },
+          {
+          "code": "L98.436",
+          "display": "Non-pressure chronic ulcer of abdomen with bone involvement without evidence of necrosis"
+          },
+          {
+          "code": "L98.438",
+          "display": "Non-pressure chronic ulcer of abdomen with other specified severity"
+          },
+          {
+          "code": "L98.439",
+          "display": "Non-pressure chronic ulcer of abdomen with unspecified severity"
+          },
+          {
+          "code": "M35.6",
+          "display": "Relapsing panniculitis [Weber-Christian]"
+          },
+          {
+          "code": "M79.3",
+          "display": "Panniculitis, unspecified"
+          },
+          {
+          "code": "K43.0",
+          "display": "Incisional hernia with obstruction, without gangrene"
+          },
+          {
+          "code": "K43.1",
+          "display": "Incisional hernia with gangrene"
+          },
+          {
+          "code": "K43.2",
+          "display": "Incisional hernia without obstruction or gangrene"
+          },
+          {
+          "code": "K43.3",
+          "display": "Parastomal hernia with obstruction, without gangrene"
+          },
+          {
+          "code": "K43.4",
+          "display": "Parastomal hernia with gangrene"
+          },
+          {
+          "code": "K43.5",
+          "display": "Parastomal hernia without obstruction or gangrene"
+          },
+          {
+          "code": "K43.6",
+          "display": "Other and unspecified ventral hernia with obstruction, without gangrene"
+          },
+          {
+          "code": "K43.7",
+          "display": "Other and unspecified ventral hernia with gangrene"
+          },
+          {
+          "code": "K43.8",
+          "display": "Ventral hernia without obstruction or gangrene"
+          },
+          {
+          "code": "K43.9",
+          "display": "Ventral hernia without obstruction or gangrene"
+          },
+          {
+          "code": "K46.9",
+          "display": "Unspecified abdominal hernia without obstruction or gangrene"
+          },
+          {
+          "code": "L98.491",
+          "display": "Non-pressure chronic ulcer of skin of other sites limited to breakdown of skin"
+          },
+          {
+          "code": "L98.492",
+          "display": "Non-pressure chronic ulcer of skin of other sites with fat layer exposed"
+          },
+          {
+          "code": "L98.493",
+          "display": "Non-pressure chronic ulcer of skin of other sites with necrosis of muscle"
+          },
+          {
+          "code": "L98.494",
+          "display": "Non-pressure chronic ulcer of skin of other sites with necrosis of bone"
+          },
+          {
+          "code": "R26.2",
+          "display": "Difficulty in walking, not elsewhere classified"
+          },
+          {
+          "code": "Z74.09",
+          "display": "Other reduced mobility"
           }
         ]
       }

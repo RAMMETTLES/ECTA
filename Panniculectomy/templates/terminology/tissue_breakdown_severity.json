@@ -1,0 +1,58 @@
+{
+  "resourceType": "ValueSet",
+  "id": "tissue-breakdown-severity-panniculectonomy",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2020-09-21T07:02:58.000+00:00",
+    "source": "#Rt3jEFB0aobPI0zV"
+  },
+  "url": "<FHIR-server>/ValueSet/tissue-breakdown-severity-panniculectonomy",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:tissue-breakdown-severity-panniculectonomy"
+    }
+  ],
+  "version": "Latest",
+  "name": "Tissue breakdown severity",
+  "title": "Tissue breakdown severity",
+  "status": "active",
+  "publisher": "CMS",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "16514006",
+            "display": "Maceration"
+          },
+          {
+            "code": "58759008",
+            "display": "Intertrigo / erythema"
+          },
+          {
+            "code": "247441003",
+            "display": "Intertrigo / erythema"
+          },
+          {
+            "code": "247444006",
+            "display": "Excoriation"
+          },
+          {
+            "code": "56208002",
+            "display": "Open ulceration"
+          },
+          {
+            "code": "31928004",
+            "display": "Abscess / purulent drainage"
+          },
+          {
+            "code": "95347000",
+            "display": "Necrosis"
+          }
+        ]
+      }
+    ]
+  }
+}

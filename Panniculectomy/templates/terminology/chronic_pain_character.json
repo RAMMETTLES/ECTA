@@ -1,0 +1,62 @@
+{
+  "resourceType": "ValueSet",
+  "id": "chronic-pain-character-panniculectonomy",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2020-09-21T07:02:58.000+00:00",
+    "source": "#Rt3jEFB0aobPI0zV"
+  },
+  "url": "<FHIR-server>/ValueSet/chronic-pain-character-panniculectonomy",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:chronic-pain-character-panniculectonomy"
+    }
+  ],
+  "version": "Latest",
+  "name": "Chronic pain character",
+  "title": "Chronic pain character",
+  "status": "active",
+  "publisher": "CMS",
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "concept": [
+          {
+            "code": "25279-3",
+            "display": "Burning"
+          },
+          {
+            "code": "27498-7",
+            "display": "Pressure/heaviness"
+          },
+          {
+            "code": "12708-6",
+            "display": "Sharp/stabbing"
+          },
+          {
+            "code": "27502-6",
+            "display": "Sharp/stabbing"
+          },
+          {
+            "code": "27491-2",
+            "display": "Aching/dull"
+          },
+          {
+            "code": "12709-4",
+            "display": "Aching/dull"
+          },
+          {
+            "code": "27503-4",
+            "display": "Pulling sensation"
+          },
+          {
+            "code": "24760-3",
+            "display": "Intermittent"
+          }
+        ]
+      }
+    ]
+  }
+}

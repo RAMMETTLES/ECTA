@@ -19,6 +19,15 @@
     ],
     "dataRequirement": [
       {
+        "type": "ServiceRequest",
+        "codeFilter": [
+          {
+            "path": "code",
+            "valueSet": "<FHIR-server>/ValueSet/2.16.840.1.113883.3.6037.1001.23.99.80"
+          }
+        ]
+      },
+      {
         "type": "Condition",
         "codeFilter": [
           {
@@ -58,11 +67,125 @@
         ]
       },
       {
-        "type": "Procedure",
+        "type": "Condition",
         "codeFilter": [
           {
             "path": "code",
-            "valueSet": "<FHIR-server>/ValueSet/2.16.840.1.113883.3.6037.1001.23.99.83"
+            "valueSet": "<FHIR-server>/ValueSet/difficulty-walking-panniculectonomy"
+          },
+          {
+            "path": "clinical-status",
+            "searchParam": "active"
+          }
+        ]
+      },
+      {
+        "type": "Condition",
+        "codeFilter": [
+          {
+            "path": "code",
+            "valueSet": "<FHIR-server>/ValueSet/tissue-breakdown-severity-panniculectonomy"
+          },
+          {
+            "path": "clinical-status",
+            "searchParam": "active"
+          }
+        ]
+      },
+      {
+        "type": "BodySite",
+        "codeFilter": [
+          {
+            "path": "code",
+            "valueSet": "<FHIR-server>/ValueSet/tissue-breakdown-location-panniculectonomy"
+          }
+        ]
+      },
+      {
+        "type": "Observation",
+        "codeFilter": [
+          {
+            "path": "code",
+            "valueSet": "<FHIR-server>/ValueSet/chronic-pain-character-panniculectonomy"
+          }
+        ]
+      },
+      {
+        "type": "BodySite",
+        "codeFilter": [
+          {
+            "path": "code",
+            "valueSet": "<FHIR-server>/ValueSet/chronic-pain-location-panniculectonomy"
+          }
+        ]
+      },
+      {
+        "type": "Condition",
+        "codeFilter": [
+          {
+            "path": "code",
+            "code":[
+              {
+                  "system": "http://snomed.info/sct",
+                  "code": "162864005"
+              },
+              {
+                  "system": "http://snomed.info/sct",
+                  "code": "271398006"
+              },
+              {
+                  "system": "http://snomed.info/sct",
+                  "code": "416528001"
+              },
+              {
+                  "system": "http://snomed.info/sct",
+                  "code": "608848006"
+              },
+              {
+                  "system": "http://snomed.info/sct",
+                  "code": "19824006"
+              },
+              {
+                  "system": "http://snomed.info/sct",
+                  "code": "363168001"
+              },
+              {
+                  "system": "http://snomed.info/sct",
+                  "code": "373219008"
+              },
+              {
+                  "system": "http://snomed.info/sct",
+                  "code": "266721009"
+              },
+              {
+                  "system": "http://snomed.info/sct",
+                  "code": "736979001"
+              },
+              {
+                  "system": "http://snomed.info/sct",
+                  "code": "62459000"
+              },
+              {
+                  "system": "http://snomed.info/sct",
+                  "code": "304275008"
+              },
+              {
+                  "system": "http://snomed.info/sct",
+                  "code": "266721009"
+              },
+              {
+                  "system": "http://snomed.info/sct",
+                  "code": "255227004"
+              },
+              {
+                  "system": "http://snomed.info/sct",
+                  "code": "62459000"
+              },
+              {
+                  "system": "http://snomed.info/sct",
+                  "code": "281789004"
+              }
+            ]
           }
         ]
       },
